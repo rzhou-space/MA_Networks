@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:26:51.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DWXgV52-krq88H3X8pVT" version="16.4.5" type="github"><diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">7VhdT+M4FP01kYYHUD7aEh5pysxoxaBqYHaXJ+RJTGPh2JHt0JZfv9dfTdIUpuxOl5dKVZp7fe3Y95xrnyRIsmr1RaC6/MYLTIM4LFZBMgviOE0juGrH2jpGaWwdC0EK64paxy15wc4ZOm9DCix7gYpzqkjdd+acMZyrng8JwZf9sEdO+0+t0QIPHLc5okPvX6RQpVtWfN76v2KyKP2To8mFbamQD3YrkSUq+LLjSq6CJBOcK3tXrTJMde58Xmy/z6+0biYmMFP7dBB0Gj0INPmTzdPTq+IlvZ/gU7eMZ0Qbt+BrwjAS33HeCD3yDVZLLp7cEtTa50UuSUURA2v6yJm6dS0R2IiSBYP7HLpjAY5nLBSBlF66BsVr8OYlocU1WvNGT18qlD95a1pyQV5gWETdmNAslGNHPOlF3Oqe4A7BK7CEmLnPSbTl+oZWvcBrJJVz5JxSVEvyc7OMCokFYVOuFK9c0DDlDgW9QrzquBwEXzCvsBJrCPGtntiuHqKRs5ctuxIfU3aZNXKFgxyjF5uxW9DhxuH+Dg6kAw4EMSw1ZA8MN4IzGUDGzaR0BnTLH0FyqUfV+KJcEc4s4QVZDWLLhwIrG19oHlSEEQl0MP1rQDsOP4FdNbSRJqbGrID8ngxGunmAByAqB1yE1CvDEcGfcMYpB9LNGLfkJJRuuTw/KX5Ur7JT1ignbHFtYmaj1vPdQaJdHPo+UlPUJSlg1ppZXCGFLI303GsOaTKQjafwA2Sz8GwcjGHiGdhRa8NPhwuVQc6VQMSQDANHl1jzdAf93qzpX3PScVAneh8Kno8OxMCLHQzcwpgSg53F2O/E0b8CuAKoKG4RvdOAz06jAerJEPVkB8IU/cR0ziUxhZDMhI3dQv6jwI3CPTeY9EDg+md10c3i4DK0VQ07cQ0pwbr4P92s9E5yqvcBUmEmIaGInhwL/rdzIt2PE8mhKj5KBqT4IfEAaDgKLrWIA4vXJtvgcTIgggVOCyRLXLitoFSV1wuCN3CKFA4SSJ9Y/62NsyT29r0OPdPHqnPMVt3w2bprzbEAQho587YSAJ2ywG+B5dOMi57wHGLVwSaauE4CU6TIc1+b7gLHDTfXXGzFRxxe9MTHyO8NfgjJG5Fj16urJbcGGod9FZOcbw1k0zAYyHBls8b/QJ/RgD53WhvccfOXcWEzpYXJUbj+HuEaJru582vherBNZPyKcq3gLdRKzsRZPQ1rT59DXOMwOtFlilgBuYcla+JUOun/y+PNNT4xYnxFKkQ/aAqJnoKEgw124FdmYBW9f7nsqoBOTNizjiLgzXNltHdFv1P2pwer38lR9x8O3s2Xhg8T/sOPS7bszWu8+ZDXMfLumW37HN/0D0CKPZW/3xzewQow26+ZVum1n4STq38A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:55:47.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UjxEfusnkpUvkCLOZpE-" version="16.4.5" type="github">
+  <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
+    <mxGraphModel dx="881" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-7" value="LinearRecurrentNetwork" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="140" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-8" value="+ n_neurons&#xa;+ J: interaction matrix&#xa;+ h_det: dertiministic input (stimulus dependent)&#xa;+ N_trials" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
+          <mxGeometry y="26" width="310" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
+          <mxGeometry y="100" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-10" value=" + trial_response (method): Nxn dimensional array.&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
+          <mxGeometry y="108" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.32;entryY=1.142;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.404;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="rlB1_ra6VnP8-Edz8Y6e-10" edge="1" source="rlB1_ra6VnP8-Edz8Y6e-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="209" y="400" as="sourcePoint" />
+            <mxPoint x="500" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-14" value="TrialToTrialCorrelation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="360" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-15" value="+ mode: 3 modes&#xa;                1) random alignment&#xa;                2) maximal alignment&#xa;                3) sorted alignment&#xa;+ Network responses&#xa;+ J: interaction matrix&#xa; &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
+          <mxGeometry y="26" width="310" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
+          <mxGeometry y="120" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-17" value="+ method: eigval, eigvec calculation &#xa;+  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
+          <mxGeometry y="128" width="310" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
