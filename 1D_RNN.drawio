@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T11:02:48.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oDKcEtgWuAQ3FAtiUpJH" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T11:03:01.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="H5M0X8DjYsMzJ_ey3lYc" version="21.3.7" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
     <mxGraphModel dx="890" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-7" value="LinearRecurrentNetwork" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="110" y="140" width="530" height="160" as="geometry" />
+          <mxGeometry x="110" y="140" width="530" height="178" as="geometry" />
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-8" value="+ n_neurons&#xa;+ J: interaction matrix&#xa;+ h_det: dertiministic input (stimulus dependent)&#xa;+ N_trials" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
           <mxGeometry y="26" width="530" height="74" as="geometry" />
@@ -14,9 +14,9 @@
           <mxGeometry y="100" width="530" height="8" as="geometry" />
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-10" value=" + trial_response (method): Nxn dimensional array.&#xa; + trial_response_alter (method): the explicite form of trial_response.&#xa; + random_interaction_matrix (method): randomly generate nxn dimensional symmetric matrix &#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
-          <mxGeometry y="108" width="530" height="52" as="geometry" />
+          <mxGeometry y="108" width="530" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.32;entryY=1.142;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.404;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rlB1_ra6VnP8-Edz8Y6e-14" target="rlB1_ra6VnP8-Edz8Y6e-10" edge="1">
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.349;entryY=1.076;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.404;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rlB1_ra6VnP8-Edz8Y6e-14" target="rlB1_ra6VnP8-Edz8Y6e-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="209" y="400" as="sourcePoint" />
             <mxPoint x="500" y="370" as="targetPoint" />
