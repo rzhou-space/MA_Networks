@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T05:16:50.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5-jT2oIthrOgZGJp1MQq" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T05:23:30.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CNITPa-ANsGcmcp9lF28" version="21.3.7" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
     <mxGraphModel dx="737" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,20 +31,20 @@
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
           <mxGeometry y="120" width="390" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-17" value=" + method: mode dependent h_det generation (3 methods)&#xa; + method: trial to trial correlation calculation&#xa; + method: plot function (2 methods, distribution plot and scatter plot)&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-17" value=" + method: mode dependent h_det generation (3 methods)&#xa; + method: trial to trial correlation calculation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
           <mxGeometry y="128" width="390" height="64" as="geometry" />
         </mxCell>
         <mxCell id="5Ww3l1jQiTz27_lDTmvw-1" value="PlotTools" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="220" width="160" height="86" as="geometry" />
+          <mxGeometry x="520" y="220" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5Ww3l1jQiTz27_lDTmvw-2" value="+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5Ww3l1jQiTz27_lDTmvw-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="5Ww3l1jQiTz27_lDTmvw-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="5Ww3l1jQiTz27_lDTmvw-4" value="+ method: plot function (2 methods, distribution plot and scatter plot)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
+          <mxGeometry y="60" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
