@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T06:01:09.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JyiodKh00fwcUm6i7WTQ" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T06:02:03.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4uw_4W25vZF3z_82kIYX" version="21.3.7" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
     <mxGraphModel dx="737" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-7" value="LinearRecurrentNetwork" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="10" width="530" height="178" as="geometry" />
+          <mxGeometry x="20" y="10" width="530" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-8" value="+ n_neurons&#xa;+ J: interaction matrix&#xa;+ h_det: dertiministic input (stimulus dependent)&#xa;+ N_trials" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
-          <mxGeometry y="26" width="530" height="74" as="geometry" />
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-8" value="+ n: number of neurons&#xa;+ R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
+          <mxGeometry y="26" width="530" height="44" as="geometry" />
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
-          <mxGeometry y="100" width="530" height="8" as="geometry" />
+          <mxGeometry y="70" width="530" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-10" value=" + trial_response (method): Nxn dimensional array.&#xa; + trial_response_alter (method): the explicite form of trial_response.&#xa; + random_interaction_matrix (method): randomly generate nxn dimensional symmetric matrix &#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
-          <mxGeometry y="108" width="530" height="70" as="geometry" />
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-10" value=" + trial_response (method): Nxn dimensional array.&#xa; + random_interaction_matrix (method): randomly generate nxn dimensional symmetric matrix &#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-7" vertex="1">
+          <mxGeometry y="78" width="530" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.349;entryY=1.076;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.404;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rlB1_ra6VnP8-Edz8Y6e-14" target="rlB1_ra6VnP8-Edz8Y6e-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
