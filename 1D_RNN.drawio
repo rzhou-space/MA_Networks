@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T05:23:30.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CNITPa-ANsGcmcp9lF28" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T05:25:08.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ca0K6DicwHwZ8H9Pf3En" version="21.3.7" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
     <mxGraphModel dx="737" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="5Ww3l1jQiTz27_lDTmvw-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="5Ww3l1jQiTz27_lDTmvw-4" value="+ method: plot function (2 methods, distribution plot and scatter plot)&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
+        <mxCell id="5Ww3l1jQiTz27_lDTmvw-4" value="+ method: plot function (2 methods, distribution plot and scatter plot): hist_plot, scatter_plot&lt;br&gt;&lt;br&gt;+&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5Ww3l1jQiTz27_lDTmvw-1">
           <mxGeometry y="60" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
