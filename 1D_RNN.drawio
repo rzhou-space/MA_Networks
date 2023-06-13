@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T05:59:27.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qFvCfL4MmANd7GiMbthd" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T06:01:09.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JyiodKh00fwcUm6i7WTQ" version="21.3.7" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
     <mxGraphModel dx="737" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-14" value="TrialToTrialCorrelation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="250" width="390" height="142" as="geometry" />
+          <mxGeometry x="20" y="250" width="390" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-15" value="+ n: number of neurons&#xa;+ R: " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
           <mxGeometry y="26" width="390" height="44" as="geometry" />
@@ -31,8 +31,8 @@
         <mxCell id="rlB1_ra6VnP8-Edz8Y6e-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
           <mxGeometry y="70" width="390" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-17" value=" + method: mode dependent h_det generation (3 methods)&#xa; + method: trial to trial correlation calculation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
-          <mxGeometry y="78" width="390" height="64" as="geometry" />
+        <mxCell id="rlB1_ra6VnP8-Edz8Y6e-17" value=" + method: trial to trial correlation calculation&#xa; + ttc_max_align(sigma_trial, N_trial, repeats)&#xa; + ttc_random_align(sigma_trial, N_trial, repeats)&#xa; + ttc_sort_align(sigma_trial, N_trial)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rlB1_ra6VnP8-Edz8Y6e-14" vertex="1">
+          <mxGeometry y="78" width="390" height="82" as="geometry" />
         </mxCell>
         <mxCell id="5Ww3l1jQiTz27_lDTmvw-5" value="IntraTrialStab" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="250" width="240" height="178" as="geometry" />
