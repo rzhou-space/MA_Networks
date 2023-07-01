@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T17:11:00.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LZVNZqkzTthC2XXSRYPW" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-01T16:51:38.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LZqrywSM7z2zgLnUWdGx" version="21.4.0" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
-    <mxGraphModel dx="737" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,18 @@
             <mxPoint x="387" y="250" as="sourcePoint" />
             <mxPoint x="414" y="192" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1hIKZWcv42IM_LAckUPL-1" value="Dimensionality" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-40" width="293" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1hIKZWcv42IM_LAckUPL-2" value="+ n: number of neurons&lt;br&gt;+ R: the radius of eigenvalues&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1hIKZWcv42IM_LAckUPL-1">
+          <mxGeometry y="26" width="293" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1hIKZWcv42IM_LAckUPL-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1hIKZWcv42IM_LAckUPL-1">
+          <mxGeometry y="90" width="293" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1hIKZWcv42IM_LAckUPL-4" value="+ evok_activity(kappa, beta, L, basis_vectors, num_sample): calculate the evoked activity.&lt;br&gt;+&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1hIKZWcv42IM_LAckUPL-1">
+          <mxGeometry y="98" width="293" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
