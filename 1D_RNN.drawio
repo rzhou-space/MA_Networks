@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T13:45:12.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BpKaCC9zMMMyrHxr-R-H" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-30T16:11:16.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Uud6k1AjoB53q_HTmKEI" version="21.6.2" type="github">
   <diagram id="dGOGpCLeey213xIE_ilE" name="Page-1">
-    <mxGraphModel dx="737" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="614" dy="1499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,31 +58,31 @@
             <mxPoint x="560" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-5" value="IntraTrialStab" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-5" value="IntraTrialStab" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="240" width="200" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-6" value="+ n: num_neurons&lt;br&gt;+ R: eigenvalue range" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-5">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-6" value="+ n: num_neurons&lt;br&gt;+ R: eigenvalue range" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VlIpVwVneqfISfBsCqPw-5" vertex="1">
           <mxGeometry y="26" width="200" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-5">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="VlIpVwVneqfISfBsCqPw-5" vertex="1">
           <mxGeometry y="60" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-8" value="+ euler_maruyama&lt;br&gt;+ rand_align&lt;br&gt;+ max_align&lt;br&gt;+ plot_max_rand_align&lt;br&gt;+ stab_hdet&lt;br&gt;+ sort_stab&lt;br&gt;+ plot_stab" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-5">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-8" value="+ euler_maruyama&lt;br&gt;+ rand_align&lt;br&gt;+ max_align&lt;br&gt;+ plot_max_rand_align&lt;br&gt;+ stab_hdet&lt;br&gt;+ sort_stab&lt;br&gt;+ plot_stab" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VlIpVwVneqfISfBsCqPw-5" vertex="1">
           <mxGeometry y="68" width="200" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-9" value="AlignmentSpontaneousAct" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-9" value="AlignmentSpontaneousAct" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="-320" width="300" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-10" value="+ n: num_neurons&lt;br&gt;+ R: radius of eigenvalue distribution" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-9">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-10" value="+ n: num_neurons&lt;br&gt;+ R: radius of eigenvalue distribution" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VlIpVwVneqfISfBsCqPw-9" vertex="1">
           <mxGeometry y="26" width="300" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-9">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="VlIpVwVneqfISfBsCqPw-9" vertex="1">
           <mxGeometry y="70" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-12" value="+ spont_input&lt;br&gt;+ spont_act&lt;br&gt;+ variance_spont_input_act&lt;br&gt;+ var_explain_A_by_B&lt;br&gt;+ compare_var_explain_align_rand_spont&lt;br&gt;+ align_A_to_B&lt;br&gt;+ align_to_ffrec" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VlIpVwVneqfISfBsCqPw-9">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-12" value="+ spont_input&lt;br&gt;+ spont_act&lt;br&gt;+ variance_spont_input_act&lt;br&gt;+ var_explain_A_by_B&lt;br&gt;+ compare_var_explain_align_rand_spont&lt;br&gt;+ multiple_stimuli_compare_align_rand_spont&lt;br&gt;+ align_A_to_B&lt;br&gt;+ align_to_ffrec" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VlIpVwVneqfISfBsCqPw-9" vertex="1">
           <mxGeometry y="78" width="300" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="VlIpVwVneqfISfBsCqPw-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.573;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rlB1_ra6VnP8-Edz8Y6e-7">
+        <mxCell id="VlIpVwVneqfISfBsCqPw-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.573;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rlB1_ra6VnP8-Edz8Y6e-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="-120" as="sourcePoint" />
             <mxPoint x="338" y="-119" as="targetPoint" />
