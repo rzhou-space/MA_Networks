@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T14:44:06.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="VmTcp27usngbFPjJGy0J" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T14:54:58.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="r71L_avMN2aExU1_EE6W" version="22.0.4" type="github">
   <diagram name="Seite-1" id="AeKgEvKw6In4-E9DSLef">
     <mxGraphModel dx="2131" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KKLgFUSlMKjrd20ZLukx-9" value="CompareOperation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-110" y="420" width="150" height="30" as="geometry">
+          <mxGeometry x="-120" y="510" width="150" height="30" as="geometry">
             <mxRectangle x="120" y="900" width="160" height="86" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +33,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KKLgFUSlMKjrd20ZLukx-13" value="FfrecAlign" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="70" y="740" width="100" height="30" as="geometry">
+          <mxGeometry x="60" y="730" width="100" height="30" as="geometry">
             <mxRectangle x="370" y="910" width="160" height="86" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -217,6 +217,40 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="750" as="sourcePoint" />
             <mxPoint x="530" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-65" value="FFrec_Alignment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="850" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-67" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KKLgFUSlMKjrd20ZLukx-65">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-68" value="+ real_ffrec_align&lt;br&gt;+ mag_ffrec_align&lt;br&gt;+ ffrec_align" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KKLgFUSlMKjrd20ZLukx-65">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-69" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.406;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKLgFUSlMKjrd20ZLukx-65" target="KKLgFUSlMKjrd20ZLukx-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="800" as="sourcePoint" />
+            <mxPoint x="100" y="800" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-70" value="Eigval_Ffrec" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="850" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-71" value="+ n: n_neuron&lt;br&gt;+ R:R&lt;br&gt;+ combi: the variation of the combination of interaction matrix&lt;br&gt;+ a: the rate for the first combination&lt;br&gt;+ b: the rate for the second combination" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KKLgFUSlMKjrd20ZLukx-70">
+          <mxGeometry y="26" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="KKLgFUSlMKjrd20ZLukx-70">
+          <mxGeometry y="130" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-73" value="+ real_eigval_ffrec&lt;br&gt;+ mag_eigval_ffrec&lt;br&gt;+ sym_eigval_ffrec&lt;br&gt;+ noise_eigval_ffrec&lt;br&gt;+ all_plots" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KKLgFUSlMKjrd20ZLukx-70">
+          <mxGeometry y="138" width="230" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="KKLgFUSlMKjrd20ZLukx-74" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KKLgFUSlMKjrd20ZLukx-70" target="KKLgFUSlMKjrd20ZLukx-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="860" as="sourcePoint" />
+            <mxPoint x="480" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
